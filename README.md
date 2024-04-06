@@ -24,6 +24,12 @@
 
 ###
 
+<div align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=OmarNouih.OmarNouih&"  />
+</div>
+
+###
+
 <h1 align="center">Hi 👋, I'm NOUIH Omar</h1>
 
 ###
@@ -32,8 +38,7 @@
 
 ###
 
-- 🌱 I’m currently exploring **exploring advanced machine learning algorithms and their applications in real-world scenarios**<br><br>
-- ⚡ Fun fact **I think I am funny!**
+<p align="left">- 🌱 I’m currently exploring **exploring advanced machine learning algorithms and their applications in real-world scenarios**<br><br>- ⚡ Fun fact **I think I am funny!**</p>
 
 ###
 
@@ -77,6 +82,14 @@
 
 ###
 
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=OmarNouih&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  /><br>
+  <img src="https://github-readme-stats.vercel.app/api?username=OmarNouih&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=darcula&locale=en&hide_border=false&order=1" height="245" alt="stats graph"  /><br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=OmarNouih&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="100" alt="languages graph"  />
+</div>
+
+###
+
 <h3 align="center">🎶 The Rhythms Behind My Code :</h3>
 
 ###
@@ -86,5 +99,3 @@
     <img src="https://spotify-recently-played-readme.vercel.app/api?user=313kjv4k7htgttp46se3awat7et4&count=3" alt="Spotify recently played"  />
   </a>
 </div>
-
-###
