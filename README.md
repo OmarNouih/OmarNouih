@@ -38,7 +38,7 @@
 
 ###
 
-<p align="left">- 🌱 I’m currently exploring **exploring advanced machine learning algorithms and their applications in real-world scenarios**<br><br>- ⚡ Fun fact **I think I am funny!**</p>
+<p align="left">- 🌱 I’m currently exploring <b>exploring advanced machine learning algorithms and their applications in real-world scenarios<b><br><br>- ⚡ Fun fact **I think I am funny!**</p>
 
 ###
 
