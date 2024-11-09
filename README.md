@@ -34,7 +34,7 @@
 
 ## 🌐 [My Portfolio](https://omarnouih.github.io/Portfolio/)
 
-Explore my professional portfolio to learn more about my background, expertise, and the work that drives my passion for AI and data science.
+Explore my professional portfolio to learn more about my background, expertise, and the work that drives my passion for AI and data science. [My Portfolio](https://omarnouih.github.io/Portfolio/)
 
 ---
 
