@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://cdn.sanity.io/images/tlr8oxjg/production/5c3120359be5c4f225cd7b817811217041b759ab-1192x668.png?w=3840&q=100&fit=clip&auto=format" alt="Welcome Banner" height="400" />
+  <img src="https://wallpapercave.com/wp/wp9684443.jpg" alt="Welcome Banner" height="400" />
 </div>
 
 ---
