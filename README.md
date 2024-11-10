@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://c4.wallpaperflare.com/wallpaper/888/401/127/ai-art-gamer-computer-pc-gaming-hd-wallpaper-preview.jpg" alt="Welcome Banner" height="150" />
+  <img src="https://cdn.sanity.io/images/tlr8oxjg/production/5c3120359be5c4f225cd7b817811217041b759ab-1192x668.png?w=3840&q=100&fit=clip&auto=format" alt="Welcome Banner" height="150" />
 </div>
 
 ---
