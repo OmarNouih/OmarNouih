@@ -1,37 +1,69 @@
-name: Update GitHub Stats
+name: Update GitHub Analytics
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 3 * * *"
-  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v6
+      - name: Checkout repository
+        uses: actions/checkout@v6
 
-      - name: Generate stats
+      - name: Create profile directory
+        run: mkdir -p profile
+
+      # ==========================================
+      # GitHub Stats
+      # ==========================================
+
+      - name: Generate GitHub stats
+        continue-on-error: true
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=OmarNouih&show_icons=true&hide_border=true&theme=transparent&title_color=008B91&text_color=E6EDF3&icon_color=008B91
+          options: "username=OmarNouih&show_icons=true&hide_border=true&bg_color=0D1117&title_color=008B91&text_color=E6EDF3&icon_color=008B91"
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      # ==========================================
+      # Top Languages
+      # ==========================================
+
       - name: Generate top languages
+        continue-on-error: true
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=OmarNouih&layout=compact&langs_count=6&hide_border=true&theme=transparent&title_color=008B91&text_color=E6EDF3
+          options: "username=OmarNouih&layout=compact&langs_count=6&hide_border=true&bg_color=0D1117&title_color=008B91&text_color=E6EDF3"
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate trophy
+      # ==========================================
+      # Activity Graph
+      # ==========================================
+
+      - name: Generate activity graph
+        continue-on-error: true
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: OmarNouih
+          options: "bg_color=0D1117&color=E6EDF3&title_color=008B91&line=008B91&point=008B91&area=true&area_color=008B91&hide_border=true&custom_title=Contribution%20Activity"
+          output_path: profile/activity-graph.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ==========================================
+      # GitHub Trophy
+      # ==========================================
+
+      - name: Generate GitHub trophies
+        continue-on-error: true
         uses: ryo-ma/github-profile-trophy@master
         with:
           username: OmarNouih
@@ -39,10 +71,31 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           theme: matrix
 
-      - name: Commit generated cards
+      # ==========================================
+      # Debug
+      # ==========================================
+
+      - name: Show generated files
+        if: always()
+        run: |
+          echo "Generated files:"
+          find profile -maxdepth 1 -type f -print || true
+
+      # ==========================================
+      # Commit
+      # ==========================================
+
+      - name: Commit generated files
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/
-          git commit -m "Update GitHub profile cards" || exit 0
-          git push
+
+          git add profile/ || true
+
+          if git diff --cached --quiet; then
+            echo "No generated files to commit."
+          else
+            git commit -m "chore: update GitHub analytics"
+            git push
+          fi
