@@ -314,11 +314,13 @@
 
 ### `[ GITHUB ANALYTICS ]`
 
+<br/>
+
 <div align="center">
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=OmarNouih&amp;show_icons=true&amp;hide_border=true&amp;theme=transparent&amp;title_color=008B91&amp;text_color=E6EDF3&amp;icon_color=008B91" />
+<img height="175" src="./profile/stats.svg" alt="OmarNouih GitHub Stats" />
 &nbsp;&nbsp;
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=OmarNouih&amp;layout=compact&amp;langs_count=6&amp;hide_border=true&amp;theme=transparent&amp;title_color=008B91&amp;text_color=E6EDF3" />
+<img height="175" src="./profile/top-langs.svg" alt="OmarNouih Top Languages" />
 
 </div>
 
@@ -326,7 +328,7 @@
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=OmarNouih&amp;hide_border=true&amp;background=0D1117&amp;ring=008B91&amp;fire=008B91&amp;currStreakLabel=008B91&amp;sideLabels=E6EDF3&amp;dates=8B949E&amp;currStreakNum=E6EDF3&amp;sideNums=E6EDF3&amp;stroke=30363D" width="620" />
+<img src="https://streak-stats.demolab.com?user=OmarNouih&amp;hide_border=true&amp;background=0D1117&amp;ring=008B91&amp;fire=008B91&amp;currStreakLabel=008B91&amp;sideLabels=E6EDF3&amp;dates=8B949E&amp;currStreakNum=E6EDF3&amp;sideNums=E6EDF3&amp;stroke=30363D" width="620" alt="GitHub Streak" />
 
 </div>
 
@@ -334,7 +336,7 @@
 
 <div align="center">
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=OmarNouih&amp;bg_color=0D1117&amp;color=E6EDF3&amp;line=008B91&amp;point=008B91&amp;area=true&amp;area_color=008B91&amp;hide_border=true&amp;custom_title=Contribution%20Activity" />
+<img width="100%" src="./profile/activity-graph.svg" alt="Contribution Activity" />
 
 </div>
 
@@ -342,7 +344,7 @@
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=OmarNouih&theme=matrix&no-frame=true&no-bg=true&column=4&margin-w=6&margin-h=6)](https://github.com/ryo-ma/github-profile-trophy)
+<img width="100%" src="./profile/trophy.svg" alt="GitHub Trophies" />
 
 </div>
 
