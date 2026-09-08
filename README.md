@@ -437,7 +437,7 @@
 
 <div align="center">
 
-[![Spotify](https://spotify-recently-played-readme.vercel.app/api?user=313kjv4k7htgttp46se3awat7et4&count=3&unique=true)](https://open.spotify.com/user/313kjv4k7htgttp46se3awat7et4)
+[![Spotify recently played](https://spotify-recently-played.jeffreyca.workers.dev/svg?user=313kjv4k7htgttp46se3awat7et4&width=460&unique=1&duration=1&album=1&footer=wave&accent_color=26aba9&logo_color=26aba9)](https://open.spotify.com/user/313kjv4k7htgttp46se3awat7et4)
 
 </div>
 
